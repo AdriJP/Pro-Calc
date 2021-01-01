@@ -4,4 +4,5 @@ Calculadora CLI simple con más funcionalidades para agilizar cálculos más com
 Para verla en acción compila con gcc o otro compilador de C el código fuente.
 NOTA: Este programa usa el archivo <math.h>. De vez en cuando (por lo menos a mi) el linker de gcc
 da error al usar este encabezado.
-Si da error, simplemente añadir el argumento -lm al comando.
+Si estais usando gcc (que es el compilador que da problemas)
+y da error, simplemente añadir el argumento -lm al comando.
