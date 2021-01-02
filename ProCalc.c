@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
         printf("n2 = ");
         scanf("%f", &l);
         k = j % l;
-        printf("Resultado = %.2f\n", r);       
+        printf("Resultado = %.2f\n", k);       
     } else if (strcmp(cmd, "exp") == 0) {
         printf("base = ");
         scanf("%f", &m);
